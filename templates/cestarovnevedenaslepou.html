@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Dungeon Master</h1>
+    <p>Your adventure begins here. Choose your path wisely!</p>
+    <img src="{{ url_for('static', filename='img/dm-chodba-b.png') }}" alt="">
+    <br>
+    <a href="{{ url_for('deadend1') }}">Rovně</a>
+    <a href="{{ url_for('krizovatka1') }}">Go Back</a>
+    <p>© 2025 RPG game</p>
+</body>
+</html>

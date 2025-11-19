@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+    flex: inline;
+    margin: 10px;
+}
